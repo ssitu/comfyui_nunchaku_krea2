@@ -3,6 +3,8 @@
 Run [Krea 2](https://huggingface.co/krea/Krea-2-Raw) in ComfyUI with
 [Nunchaku](https://github.com/nunchux-ai/nunchaku) SVDQuant 4-bit models.
 
+Seems to be slightly slower than int8 convrot quants, but uses much less VRAM which makes it faster on low VRAM setups. Your mileage may vary.
+
 ## Installation
 
 1. Install [Nunchaku](https://nunchaku.tech/docs/nunchaku/installation/installation.html)
